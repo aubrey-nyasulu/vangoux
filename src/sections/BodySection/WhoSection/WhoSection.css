@@ -1,0 +1,51 @@
+.WhoSection{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.WhoSection .cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.WhoSection .cards .CardComponent{
+    position: relative;
+    width: 320px;
+    background: #fff;
+    height: fit-content;
+    padding: 20px;
+}
+
+.WhoSection .cards .CardComponent .head{
+    
+    display: flex;
+    gap: 20px;
+}
+
+.WhoSection .cards .CardComponent .head .icon{
+    width: 120px;
+    height: 120px;
+}
+
+.WhoSection .cards .CardComponent .head .text{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.WhoSection .cards .CardComponent .head .text p{
+    padding-right: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1967FA;
+}
+
+.WhoSection .cards .CardComponent .body{
+}

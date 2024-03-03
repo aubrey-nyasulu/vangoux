@@ -1,6 +1,6 @@
 import './TestimonialsSection.css'
 
-import CardOneComponent from "../../../components/CardComponent/CardOneComponent";
+import CardComponent from "../../../components/CardComponent/CardComponent";
 
 import TestimonialPictureOne from '../../../assets/imgs+icons/TestimonialPicture.png'
 import TestimonialPictureTwo from '../../../assets/imgs+icons/TestimonialPicture2.png'
@@ -8,8 +8,8 @@ import IllustrationQuote from '../../../assets/imgs+icons/IllustrationQuote.svg'
 
 export default function TestimonialsSection() {
     return (
-        <div className="TestimonialsSection">
-            <CardOneComponent>
+        <section className="TestimonialsSection">
+            <CardComponent>
                 <div className="head">
                     <div className="picture">
                         <img src={TestimonialPictureOne} alt="user picture" />
@@ -22,9 +22,9 @@ export default function TestimonialsSection() {
                         <img src={IllustrationQuote} alt="quote" />
                     </div>
                 </div>
-                <p>“It was awesome to see VanGoux turn our MVP designs into code within minutes.”</p>
-            </CardOneComponent>
-            <CardOneComponent>
+                <p>“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”</p>
+            </CardComponent>
+            <CardComponent>
                 <div className="head">
                     <div className="picture">
                         <img src={TestimonialPictureTwo} alt="user picture" />
@@ -38,7 +38,7 @@ export default function TestimonialsSection() {
                     </div>
                 </div>
                 <p>“It was awesome to see VanGoux turn our MVP designs into code within minutes.”</p>
-            </CardOneComponent>
-        </div>
+            </CardComponent>
+        </section>
     )
 }

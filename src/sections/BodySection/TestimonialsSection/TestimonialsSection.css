@@ -7,12 +7,12 @@
     align-items: center;
 }
 
-.TestimonialsSection .CardOneComponent{
+.TestimonialsSection .CardComponent{
     padding: 40px;
     width: 540px;
 }
 
-.TestimonialsSection .CardOneComponent .head{
+.TestimonialsSection .CardComponent .head{
     width: 100%;
     
     display: flex;
@@ -20,7 +20,7 @@
 }
 
 
-.TestimonialsSection .CardOneComponent .head .picture{
+.TestimonialsSection .CardComponent .head .picture{
     width: 100px;
     height: 100px;
     overflow: hidden;
@@ -29,7 +29,7 @@
     place-content: center;
 }
 
-.TestimonialsSection .CardOneComponent .head .initials{
+.TestimonialsSection .CardComponent .head .initials{
     width: 100px;
     height: 100px;
     overflow: hidden;
@@ -40,17 +40,17 @@
     gap: 8px;
 }
 
-.TestimonialsSection .CardOneComponent .head .initials .name{
+.TestimonialsSection .CardComponent .head .initials .name{
     font-size: 18px;
     font-weight: 700;
 }
 
-.TestimonialsSection .CardOneComponent .head .initials small{
+.TestimonialsSection .CardComponent .head .initials small{
     color: #1967FA;
     font-size: 14px;
 }
 
-.TestimonialsSection .CardOneComponent .head .IllustrationQuote{
+.TestimonialsSection .CardComponent .head .IllustrationQuote{
     width: 60;
     height: 46;
 

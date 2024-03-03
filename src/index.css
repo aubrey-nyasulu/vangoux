@@ -41,6 +41,10 @@ html, body {
   justify-content: center;
 }
 
+img{
+  width: 100%;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -57,7 +61,7 @@ h1 {
 }
 
 h2{
-  font-size: 32px;
+  font-size: 30px;
 }
 
 button {

@@ -1,0 +1,86 @@
+.HowItWorksSection{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.HowItWorksSection .cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.HowItWorksSection .cards .CardComponent{
+    position: relative;
+    padding: 40px;
+    width: 320px;
+    height: fit-content;
+}
+
+.HowItWorksSection .cards .CardComponent .head{
+    display: flex;
+}
+
+.HowItWorksSection .cards .CardComponent .head .text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.HowItWorksSection .cards .CardComponent .head .text small{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.HowItWorksSection .cards .CardComponent .head .text p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #1967FA;
+    text-transform: uppercase;
+}
+
+
+.HowItWorksSection .cards .CardComponent .body{
+    display: flex;
+    align-items: flex-end;
+}
+
+.HowItWorksSection .cards .CardComponent .body .text{
+    flex: 1;
+}
+
+.HowItWorksSection .cards .CardComponent .body .cornericon{
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.HowItWorksSection .cards .dottconnector{
+    flex: 1;
+    width: 100%;
+    height: 0px;
+    border-top: 2px dotted #1968FC;
+}
+
+.HowItWorksSection .cards .dottconnector:nth-child(2){
+    margin-top: 80px;
+}
+
+.HowItWorksSection .cards .dottconnector:nth-child(4){
+    margin-top: 110px;
+}
+
+.HowItWorksSection .cards .CardComponent:nth-child(3){
+    margin-top: 30px;
+}
+
+.HowItWorksSection .cards .CardComponent:nth-child(5){
+    margin-top: 60px;
+}

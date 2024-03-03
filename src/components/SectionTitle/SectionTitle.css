@@ -1,0 +1,14 @@
+.SectionTitle{
+    width: 100%;
+}
+
+.SectionTitle h2{
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #11223F;
+}
+
+.SectionTitle .decline{
+    width: 80px;
+}

@@ -1,0 +1,12 @@
+ul{
+    width: fit-content;
+    
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+ul a {
+    color: #000;
+    font-size: 14px;
+}

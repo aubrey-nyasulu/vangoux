@@ -1,0 +1,64 @@
+.OurStorySection{
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.OurStorySection .cards{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.OurStorySection .cards > div{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.OurStorySection .cards > .cards .icon{
+    width: 40px;
+    height: 33px;
+}
+
+.OurStorySection .cards .CardComponent{
+    position: relative;
+    width: 420px;
+    /* background: #fff; */
+    height: fit-content;
+    /* padding: 20px; */
+    box-shadow: none;
+}
+
+.OurStorySection .cards .CardComponent .head{
+    
+    display: flex;
+    gap: 20px;
+}
+
+.OurStorySection .cards .CardComponent .head .icon{
+    width: 120px;
+    height: 120px;
+}
+
+.OurStorySection .cards .CardComponent .head .text{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.OurStorySection .cards .CardComponent .head .text p{
+    padding-right: 14px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.OurStorySection .cards .CardComponent .body .text{
+    color: #000;
+}
