@@ -1,4 +1,4 @@
-.OurStorySection{
+.OurStorySection {
     width: 100%;
     height: fit-content;
 
@@ -7,7 +7,7 @@
     gap: 24px;
 }
 
-.OurStorySection .cards{
+.OurStorySection .cards {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -15,18 +15,18 @@
     gap: 20px;
 }
 
-.OurStorySection .cards > div{
+.OurStorySection .cards>div {
     display: flex;
     gap: 20px;
     align-items: flex-start;
 }
 
-.OurStorySection .cards > .cards .icon{
+.OurStorySection .cards>.cards .icon {
     width: 40px;
     height: 33px;
 }
 
-.OurStorySection .cards .CardComponent{
+.OurStorySection .cards .CardComponent {
     position: relative;
     width: 420px;
     /* background: #fff; */
@@ -35,30 +35,41 @@
     box-shadow: none;
 }
 
-.OurStorySection .cards .CardComponent .head{
-    
+.OurStorySection .cards .CardComponent .head {
+
     display: flex;
     gap: 20px;
 }
 
-.OurStorySection .cards .CardComponent .head .icon{
+.OurStorySection .cards .CardComponent .head .icon {
     width: 120px;
     height: 120px;
 }
 
-.OurStorySection .cards .CardComponent .head .text{
+.OurStorySection .cards .CardComponent .head .text {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.OurStorySection .cards .CardComponent .head .text p{
+.OurStorySection .cards .CardComponent .head .text p {
     padding-right: 14px;
     font-size: 20px;
     font-weight: 700;
     color: #000;
 }
 
-.OurStorySection .cards .CardComponent .body .text{
+.OurStorySection .cards .CardComponent .body .text {
     color: #000;
+}
+
+
+@media screen and (max-width: 768px) {
+    .OurStorySection .cards {
+        padding-inline: 32px;
+    }
+
+    .OurStorySection .cards>div {
+        flex-direction: column;
+    }
 }

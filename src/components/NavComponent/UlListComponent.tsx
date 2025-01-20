@@ -2,7 +2,7 @@ import './UlListComponent.css'
 
 export default function UlListComponent({ children }: { children: React.ReactNode }) {
     return (
-        <ul>
+        <ul className='UlListComponent'>
             {children}
         </ul>
     )

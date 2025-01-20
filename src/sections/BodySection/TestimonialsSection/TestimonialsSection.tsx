@@ -24,6 +24,7 @@ export default function TestimonialsSection() {
                 </div>
                 <p>“Our senior frontend developer was 70% faster in building React.js components thanks to VanGoux!”</p>
             </CardComponent>
+
             <CardComponent>
                 <div className="head">
                     <div className="picture">

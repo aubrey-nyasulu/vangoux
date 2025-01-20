@@ -10,7 +10,7 @@
   font-size: 16px;
 
   color-scheme: light dark;
-  color:  #11223F;
+  color: #11223F;
   background-color: #fff;
 
   font-synthesis: none;
@@ -19,7 +19,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -27,21 +29,16 @@
   box-sizing: border-box;
 }
 
-
-html, body {
-  width: 100vw;
-  min-height: 100vh;
+body {
+  width: 100%;
   overflow-x: hidden;
   background-image: url('./assets/imgs+icons/BackgroundDecor.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-
-  display: flex;
-  justify-content: center;
 }
 
-img{
+img {
   width: 100%;
 }
 
@@ -60,7 +57,7 @@ h1 {
   /* line-height: 1.1; */
 }
 
-h2{
+h2 {
   font-size: 30px;
 }
 
@@ -69,24 +66,3 @@ button {
   cursor: pointer;
   border: none;
 }
-
-/* button:hover {
-  border-color: #646cff;
-} */
-/* button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-} */
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */

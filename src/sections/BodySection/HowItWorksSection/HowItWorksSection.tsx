@@ -32,7 +32,33 @@ export default function HowItWorksSection() {
                         </div>
                     </div>
                 </CardComponent>
+
                 <div className="dottconnector"></div>
+
+                <CardComponent>
+                    <div className="head">
+                        <div className="text">
+                            <small>
+                                setp 1
+                            </small>
+                            <p>Upload Sketch</p>
+                        </div>
+                        <div className="downloadIcon">
+                            <img src={UploadIcon} alt="" />
+                        </div>
+                    </div>
+                    <div className="body">
+                        <div className="text">
+                            <p>Upload design for your site, landing page or portfolio</p>
+                        </div>
+                        <div className="cornericon">
+                            <img src={DecorationJuju} alt="" />
+                        </div>
+                    </div>
+                </CardComponent>
+
+                <div className="dottconnector"></div>
+
                 <CardComponent>
                     <div className="head">
                         <div className="text">
@@ -55,27 +81,6 @@ export default function HowItWorksSection() {
                     </div>
                 </CardComponent>
                 <div className="dottconnector"></div>
-                <CardComponent>
-                    <div className="head">
-                        <div className="text">
-                            <small>
-                                setp 1
-                            </small>
-                            <p>Upload Sketch</p>
-                        </div>
-                        <div className="downloadIcon">
-                            <img src={UploadIcon} alt="" />
-                        </div>
-                    </div>
-                    <div className="body">
-                        <div className="text">
-                            <p>Upload design for your site, landing page or portfolio</p>
-                        </div>
-                        <div className="cornericon">
-                            <img src={DecorationJuju} alt="" />
-                        </div>
-                    </div>
-                </CardComponent>
             </div>
         </section>
     )

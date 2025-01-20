@@ -1,12 +1,26 @@
-ul{
+.UlListComponent {
     width: fit-content;
-    
+
     display: flex;
     gap: 40px;
+    justify-content: space-between;
     align-items: center;
 }
 
-ul a {
+.UlListComponent a {
     color: #000;
     font-size: 14px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .UlListComponent .ButtonComponent {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .UlListComponent {
+        display: none;
+    }
 }

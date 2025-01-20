@@ -14,6 +14,7 @@ export default function FeaturesSection() {
     return (
         <section className="FeaturesSection">
             <SectionTitle title="Features" />
+
             <div className="cards">
                 <CardComponent>
                     <div className="head">
@@ -33,6 +34,7 @@ export default function FeaturesSection() {
                         </div>
                     </div>
                 </CardComponent>
+
                 <CardComponent>
                     <div className="head">
                         <div className="icon">

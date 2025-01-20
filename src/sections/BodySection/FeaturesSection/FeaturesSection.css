@@ -1,4 +1,4 @@
-.FeaturesSection{
+.FeaturesSection {
     width: 100%;
     height: fit-content;
 
@@ -7,38 +7,40 @@
     gap: 24px;
 }
 
-.FeaturesSection .cards{
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+.FeaturesSection .cards {
+    display: grid;
     gap: 64px;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.FeaturesSection .cards .CardComponent{
+.FeaturesSection .cards .CardComponent {
     position: relative;
-    width: 320px;
+    flex: 1;
+    min-width: 320px;
     height: fit-content;
+
+    gap: 0px;
 }
 
-.FeaturesSection .cards .CardComponent .head{
+.FeaturesSection .cards .CardComponent .head {
     background: #F3F7FF;
-    
+
     display: flex;
     gap: 20px;
 }
 
-.FeaturesSection .cards .CardComponent .head .icon{
+.FeaturesSection .cards .CardComponent .head .icon {
     width: 120px;
     height: 120px;
 }
 
-.FeaturesSection .cards .CardComponent .head .text{
+.FeaturesSection .cards .CardComponent .head .text {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.FeaturesSection .cards .CardComponent .head .text p{
+.FeaturesSection .cards .CardComponent .head .text p {
     padding-right: 14px;
     font-size: 18px;
     font-weight: 700;
@@ -46,11 +48,11 @@
 }
 
 
-.FeaturesSection .cards .CardComponent .body{
+.FeaturesSection .cards .CardComponent .body {
     padding: 40px;
 }
 
-.FeaturesSection .cards .CardComponent .body .cornericon{
+.FeaturesSection .cards .CardComponent .body .cornericon {
     position: absolute;
     bottom: -5px;
     right: -5px;
@@ -59,11 +61,38 @@
     overflow: hidden;
 }
 
-
-.FeaturesSection .cards .CardComponent:nth-child(2){
+.FeaturesSection .cards .CardComponent:nth-child(2) {
     margin-top: 30px;
 }
 
-.FeaturesSection .cards .CardComponent:nth-child(3){
+.FeaturesSection .cards .CardComponent:nth-child(3) {
     margin-top: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+    .FeaturesSection {
+        padding-inline: 16px;
+    }
+
+    .FeaturesSection .cards {
+        gap: 32px;
+    }
+
+    .FeaturesSection .cards .CardComponent .head {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .FeaturesSection .cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 0px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .FeaturesSection .cards {
+        grid-template-columns: repeat(1, 1fr);
+        place-items: center;
+    }
 }

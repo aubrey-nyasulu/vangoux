@@ -1,11 +1,19 @@
-.BodySection{
+.BodySection {
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     gap: 120px;
     align-items: center;
 }
 
-.BodySection > section{
+.BodySection>section {
     width: 1120px;
 }
 
+
+@media screen and (max-width: 1128px) {
+    .BodySection>section {
+        width: 100%;
+    }
+}

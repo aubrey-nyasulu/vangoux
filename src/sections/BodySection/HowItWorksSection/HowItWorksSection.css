@@ -1,4 +1,4 @@
-.HowItWorksSection{
+.HowItWorksSection {
     width: 100%;
     height: fit-content;
 
@@ -7,36 +7,36 @@
     gap: 24px;
 }
 
-.HowItWorksSection .cards{
+.HowItWorksSection .cards {
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 
-.HowItWorksSection .cards .CardComponent{
+.HowItWorksSection .cards .CardComponent {
     position: relative;
     padding: 40px;
     width: 320px;
     height: fit-content;
 }
 
-.HowItWorksSection .cards .CardComponent .head{
+.HowItWorksSection .cards .CardComponent .head {
     display: flex;
 }
 
-.HowItWorksSection .cards .CardComponent .head .text{
+.HowItWorksSection .cards .CardComponent .head .text {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.HowItWorksSection .cards .CardComponent .head .text small{
+.HowItWorksSection .cards .CardComponent .head .text small {
     font-size: 13px;
     font-weight: bold;
 }
 
-.HowItWorksSection .cards .CardComponent .head .text p{
+.HowItWorksSection .cards .CardComponent .head .text p {
     font-size: 18px;
     font-weight: bold;
     color: #1967FA;
@@ -44,16 +44,16 @@
 }
 
 
-.HowItWorksSection .cards .CardComponent .body{
+.HowItWorksSection .cards .CardComponent .body {
     display: flex;
     align-items: flex-end;
 }
 
-.HowItWorksSection .cards .CardComponent .body .text{
+.HowItWorksSection .cards .CardComponent .body .text {
     flex: 1;
 }
 
-.HowItWorksSection .cards .CardComponent .body .cornericon{
+.HowItWorksSection .cards .CardComponent .body .cornericon {
     position: absolute;
     bottom: -5px;
     right: -5px;
@@ -62,25 +62,60 @@
     overflow: hidden;
 }
 
-.HowItWorksSection .cards .dottconnector{
+.HowItWorksSection .cards .dottconnector {
     flex: 1;
     width: 100%;
     height: 0px;
     border-top: 2px dotted #1968FC;
 }
 
-.HowItWorksSection .cards .dottconnector:nth-child(2){
+.HowItWorksSection .cards .dottconnector:nth-child(2) {
     margin-top: 80px;
 }
 
-.HowItWorksSection .cards .dottconnector:nth-child(4){
+.HowItWorksSection .cards .dottconnector:nth-child(4) {
     margin-top: 110px;
 }
 
-.HowItWorksSection .cards .CardComponent:nth-child(3){
+.HowItWorksSection .cards .CardComponent:nth-child(3) {
     margin-top: 30px;
 }
 
-.HowItWorksSection .cards .CardComponent:nth-child(5){
+.HowItWorksSection .cards .CardComponent:nth-child(5) {
     margin-top: 60px;
+}
+
+.HowItWorksSection .cards .dottconnector:nth-child(6) {
+    display: none;
+}
+
+@media screen and (max-width: 1090px) {
+    .HowItWorksSection {
+        padding-inline: 16px;
+    }
+
+    .HowItWorksSection .cards {
+        flex-wrap: wrap;
+        /* gap: 32px; */
+    }
+
+    .HowItWorksSection .cards .dottconnector:nth-child(6) {
+        display: block;
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .HowItWorksSection .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .HowItWorksSection .cards .dottconnector {
+        display: none;
+    }
+
+    .HowItWorksSection .cards .dottconnector:nth-child(6) {
+        display: none;
+    }
 }
