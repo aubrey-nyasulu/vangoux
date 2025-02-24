@@ -1,4 +1,4 @@
-footer{
+footer {
     width: 100%;
     height: fit-content;
 
@@ -10,13 +10,13 @@ footer{
 footer .wrapper {
     width: 1120px;
     display: flex;
+    gap: 80px;
     justify-content: center;
     align-items: flex-end;
-    gap: 95px;
 
 }
 
-footer .wrapper .CardComponent{
+footer .wrapper .CardComponent {
     position: relative;
     width: 250px;
     background: #fff;
@@ -24,34 +24,53 @@ footer .wrapper .CardComponent{
     padding: 0px;
 }
 
-footer .wrapper .CardComponent .head{
-    
+footer .wrapper .CardComponent .head {
+
     display: flex;
     gap: 8px;
 }
 
-footer .wrapper .CardComponent .head .icon{
+footer .wrapper .CardComponent .head .icon {
     width: 50px;
     height: 50px;
 }
 
-footer .wrapper .CardComponent .head .text{
+footer .wrapper .CardComponent .head .text {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-footer .wrapper .CardComponent .head .text p{
+footer .wrapper .CardComponent .head .text p {
     font-size: 14px;
     font-weight: 700;
     color: #1968FC;
 }
 
 footer .wrapper .NavComponent .socialIcons {
+    margin-left: 32px;
+
     display: flex;
     gap: 32px;
     align-items: center;
 }
-footer .wrapper .NavComponent .socialIcons > img{
+
+footer .wrapper .NavComponent .socialIcons>img {
     height: 20px;
+}
+
+footer .wrapper .illustration {
+    width: 40px;
+}
+
+@media screen and (max-width: 768px) {
+    footer .wrapper {
+        padding-inline: 32px;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    footer .wrapper .illustration {
+        display: none;
+    }
 }

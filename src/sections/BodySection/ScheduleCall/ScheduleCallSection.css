@@ -69,6 +69,10 @@ body section.ScheduleCallSection {
 }
 
 @media screen and (max-width: 768px) {
+    body section.ScheduleCallSection {
+        padding-bottom: 64px;
+    }
+
     .ScheduleCallSection>div {
         padding-inline: 16px;
     }

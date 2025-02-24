@@ -1,14 +1,13 @@
-.SectionTitle{
+.SectionTitle {
     width: 100%;
 }
 
-.SectionTitle h2{
-    padding-left: 40px;
+.SectionTitle h2 {
     text-transform: uppercase;
     font-weight: 500;
     color: #11223F;
 }
 
-.SectionTitle .decline{
+.SectionTitle .decline {
     width: 80px;
 }

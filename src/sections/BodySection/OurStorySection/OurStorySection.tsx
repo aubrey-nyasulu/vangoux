@@ -30,6 +30,7 @@ export default function OurStorySection() {
                         </div>
                     </CardComponent>
                 </div>
+                
                 <div>
                     <div className="icon">
                         <img src={IconStarryNight} alt="" />

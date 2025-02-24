@@ -89,6 +89,12 @@
     display: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .HowItWorksSection {
+        padding-inline: 16px;
+    }
+}
+
 @media screen and (max-width: 1090px) {
     .HowItWorksSection {
         padding-inline: 16px;

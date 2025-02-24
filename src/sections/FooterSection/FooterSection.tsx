@@ -25,27 +25,25 @@ export default function FooterSection() {
                         </div>
                     </CardComponent>
                     <UlListComponent>
-                        <UlListComponent>
-                            <li>
-                                <a href="#">Contact</a>
-                            </li>
-                            <li>
-                                <a href="#howItWorks">Feedback</a>
-                            </li>
-                            <li>
-                                <a href="#howItWorks">Join our Slack</a>
-                            </li>
-                            <li>
-                                <a href="#howItWorks">Terms</a>
-                            </li>
-                        </UlListComponent>
+                        <li>
+                            <a href="#">Contact</a>
+                        </li>
+                        <li>
+                            <a href="#howItWorks">Feedback</a>
+                        </li>
+                        <li>
+                            <a href="#howItWorks">Join our Slack</a>
+                        </li>
+                        <li>
+                            <a href="#howItWorks">Terms</a>
+                        </li>
                     </UlListComponent>
                     <div className='socialIcons'>
                         <img src={IconFacebook} alt="facebook icon" />
                         <img src={IconInstagram} alt="instagram icon" />
                     </div>
                 </NavComponent>
-                <div>
+                <div className='illustration'>
                     <img src={VincentIllustration} alt="illustration" />
                 </div>
             </div>

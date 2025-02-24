@@ -1,4 +1,4 @@
-.WhoSection{
+.WhoSection {
     width: 100%;
     height: fit-content;
 
@@ -7,7 +7,7 @@
     gap: 24px;
 }
 
-.WhoSection .cards{
+.WhoSection .cards {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -15,7 +15,7 @@
     gap: 20px;
 }
 
-.WhoSection .cards .CardComponent{
+.WhoSection .cards .CardComponent {
     position: relative;
     width: 320px;
     background: #fff;
@@ -23,29 +23,34 @@
     padding: 20px;
 }
 
-.WhoSection .cards .CardComponent .head{
-    
+.WhoSection .cards .CardComponent .head {
+
     display: flex;
     gap: 20px;
 }
 
-.WhoSection .cards .CardComponent .head .icon{
+.WhoSection .cards .CardComponent .head .icon {
     width: 120px;
     height: 120px;
 }
 
-.WhoSection .cards .CardComponent .head .text{
+.WhoSection .cards .CardComponent .head .text {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.WhoSection .cards .CardComponent .head .text p{
+.WhoSection .cards .CardComponent .head .text p {
     padding-right: 14px;
     font-size: 20px;
     font-weight: bold;
     color: #1967FA;
 }
 
-.WhoSection .cards .CardComponent .body{
+.WhoSection .cards .CardComponent .body {}
+
+@media screen and (max-width: 1200px) {
+    .WhoSection {
+        padding-inline: 16px;
+    }
 }
